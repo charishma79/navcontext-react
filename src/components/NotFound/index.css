@@ -1,0 +1,41 @@
+/* Write your CSS here */
+.not-found-img {
+  height: 350px;
+}
+
+.not-heading {
+  color: #1e293b;
+  font-family: Roboto;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.text {
+  color: #64748b;
+  font-family: Roboto;
+  font-size: 17px;
+}
+
+.not-found-heading {
+  font-family: Roboto;
+  font-size: 40px;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+.not-text {
+  color: #f8fafc;
+  font-family: Roboto;
+  font-size: 17px;
+}
+@media screen and (max-width: 767px) {
+  .not-found-img {
+    height: 200px;
+  }
+  .not-heading {
+    font-size: 30px;
+  }
+  .not-found-heading {
+    font-size: 30px;
+  }
+}

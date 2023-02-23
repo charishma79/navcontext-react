@@ -1,0 +1,85 @@
+/* Write your CSS here */
+.nav-dark-container {
+  height: 12vh;
+  display: flex;
+  padding-left: 90px;
+  padding-right: 90px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #64748b;
+  align-items: center;
+  background-color: #333333;
+  justify-content: space-between;
+  box-shadow: 0px 4px 1px 0px #bfbfbf;
+}
+
+.nav-container {
+  height: 12vh;
+  display: flex;
+  padding-left: 90px;
+  padding-right: 90px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #64748b;
+  align-items: center;
+  background-color: #ffffff;
+  justify-content: space-between;
+  box-shadow: 0px 4px 1px 0px #bfbfbf;
+}
+
+.logo {
+  height: 35px;
+  width: 45px;
+}
+
+.nav-item {
+  list-style-type: none;
+  display: flex;
+}
+
+.item {
+  color: #171f46;
+  font-family: Roboto;
+  font-size: 17px;
+  font-weight: 700;
+  margin-right: 25px;
+}
+
+.item-1 {
+  color: #f8fafc;
+  font-family: Roboto;
+  font-size: 17px;
+  font-weight: 700;
+  margin-right: 25px;
+}
+
+.nav-link {
+  text-decoration: none;
+}
+
+.theme-btn {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.mode {
+  height: 35px;
+  width: 35px;
+}
+
+@media screen and (max-width: 767px) {
+  .nav-container {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+  .nav-dark-container {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+}
